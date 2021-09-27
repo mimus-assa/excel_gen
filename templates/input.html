@@ -1,0 +1,52 @@
+{% extends "base_template.html" %}
+{% block title %}Registro de usuarios{% endblock %}
+{% block content %}
+    <form action="" method="post">
+        <label for="Orden">Orden: </label>
+        <input type="text" id="Orden" placeholder="{{data}}" name="Orden" required  /><br>
+        <label for="Dependencia">Dependencia: </label>
+        <input type="text" id="Dependencia" name="Dependencia" /><br>
+        <label for="Atencion">Atencion: </label>
+        <input type="text" id="Atencion" name="Atencion" /><br>
+        <label for="Recibio_del_cer">Recibio del cer: </label>
+        <input type="text" id="Recibio_del_cer" name="Recibio_del_cer" /><br>
+        <label for="Entrego_al_cer">Entrego al cer: </label>
+        <input type="text" id="Entrego_al_cer" name="Entrego_al_cer" /><br>
+        <label for="Folio">Folio: </label>
+        <input type="text" id="Folio" name="Folio" /><br>
+        <label for="Entrada">Entrada: </label>
+        <input type="text" id="Entrada" name="Entrada" /><br>
+        <label for="Equipo">Equipo: </label>
+        <input type="text" id="Equipo" name="Equipo" /><br>
+        <label for="Marca">Marca: </label>
+        <input type="text" id="Marca" name="Marca" /><br>
+        <label for="Modelo">Modelo: </label>
+        <input type="text" id="Modelo" name="Modelo" /><br>
+        <label for="Serie">Serie: </label>
+        <input type="text" id="Serie" name="Serie" /><br>
+        <label for="Unidad">Unidad: </label>
+        <input type="text" id="Unidad" name="Unidad" /><br>
+        <label for="Delegacion">Delegacion: </label>
+        <input type="text" id="Delegacion" name="Delegacion" /><br>
+        <label for="Accesorio">Accesorio: </label>
+        <input type="text" id="Accesorio" name="Accesorio" /><br>
+        <label for="Falla">Falla: </label>
+        <input type="text" id="Falla" name="Falla" /><br>
+        <label for="Ticket">Ticket: </label>
+        <input type="text" id="Ticket" name="Ticket" /><br>
+        <label for="Status">Status: </label>
+        <input type="text" id="Status" name="Status" /><br>
+        <label for="Reparacion">Reparacion: </label>
+        <input type="text" id="Reparacion" name="Reparacion" /><br>
+        <label for="Salida">Salida: </label>
+        <input type="text" id="Salida" name="Salida" /><br>
+        <label for="Reparo">Reparo: </label>
+        <input type="text" id="Reparo" name="Reparo" /><br>
+        <label for="Servicio">Servicio: </label>
+        <input type="text" id="Servicio" name="Servicio" /><br>
+        <label for="Reporte">Reporte: </label>
+        <input type="text" id="Reporte" name="Reporte" /><br>
+        
+        <input type="submit" id="send-signup" name="signup" value="Registrar" />
+    </form>
+{% endblock %}
